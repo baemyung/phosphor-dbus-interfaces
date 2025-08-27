@@ -17,6 +17,13 @@ properties:
           Whether or not the item is present.
 
 associations:
+    - name: assembly
+      description: >
+          Objects that implement Item can optionally implement the
+          'inventory' association to provide a link to a chassis.
+      reverse_name: inventory
+      required_endpoint_interfaces:
+          - xyz.openbmc_project.Inventory.Item.Chassis
     - name: containing
       description: >
           Any inventory Items (usually Boards or Chassis) can optionally

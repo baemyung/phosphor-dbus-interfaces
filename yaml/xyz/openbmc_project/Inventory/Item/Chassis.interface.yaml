@@ -51,6 +51,13 @@ enumerations:
                 separated.
 
 associations:
+    - name: inventory
+      description: >
+          Objects that implement Chassis can optionally implement the
+          'assembly' association to provide a link to one or more items.
+      reverse_name: assembly
+      required_endpoint_interfaces:
+          - xyz.openbmc_project.Inventory.Item
     - name: powered_by
       description: >
           Objects that implement Chassis can optionally implement the

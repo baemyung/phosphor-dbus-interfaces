@@ -29,3 +29,4 @@ Document ObjectMapper association forward and reverse names as follows:
 - PCIeSwitch and PCIeSlot: `{connecting, connected_to}`
 - Control.Throttle and Item: `{throttling, throttled_by}`
 - Cable and Item: `{connecting, connected_to}`
+- Chassis and Item: `{inventory, assembly}`
