@@ -27,6 +27,12 @@ enumerations:
           - name: RAA228244_vsys_vsoc_c1
           - name: RAA228244_v0p75_pcie_vddq
           - name: MP9945_v1p2
+          - name: MP29402_vcpu_vcpum_c0
+          - name: MP29403_vsys_vsoc_c0
+          - name: MP29402_vcpu_vcpum_c1
+          - name: MP29403_vsys_vsoc_c1
+          - name: MP29403_v0p75_pcie_vddq
+          - name: TPS544E27_v1p2
 
     - name: TPM
       description: >
