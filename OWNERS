@@ -56,6 +56,7 @@ matchers:
 - partial_regex: yaml/xyz/openbmc_project/User
   reviewers:
   - raviteja28031990@gmail.com
+  - vijaysankarr@ami.com
 - partial_regex: yaml/xyz/openbmc_project/Network
   reviewers:
   - raviteja28031990@gmail.com
@@ -79,3 +80,6 @@ openbmc:
 - name: Ravi Teja
   email: raviteja28031990@gmail.com
   discord: raviteja
+ - name: Vijaysankar Ravi
+   email: vijaysankarr@ami.com
+   discord: vijaysankarr_50553
